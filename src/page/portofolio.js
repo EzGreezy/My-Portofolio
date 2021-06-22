@@ -9,6 +9,7 @@ import Picture5 from "../assets/images/picture 5.jpg";
 import Picture6 from "../assets/images/picture 6.jpg";
 import Picture7 from "../assets/images/picture 7.jpg";
 import Picture8 from "../assets/images/picture 8.jpg";
+
 import Layout from "../common/component/layout/layout";
 import { Box, Text, Container, Grid, GridItem, Heading, Image, Link } from '@chakra-ui/react';
 
@@ -21,7 +22,7 @@ export default function Portofolio(props) {
                     <Fade duration={500} distance="30px" fraction={0.4} bottom>
                         <Box mt={{ base: "44", md: "28", lg: "0" }}>
                             <Heading as="h1" letterSpacing={"-.0.001rem"} lineHeight={"-.0.001rem"} fontSize={{ base: "2xl", md: "5xl", lg: "7xl" }}>
-                               Portofolio
+                                Portofolio
                             </Heading>
                             <Text letterSpacing={"-.0.01rem"} lineHeight={"-.0.001rem"} textAlign={{ base: "justify" }} fontSize={{ base: "xs", md: "xs", lg: "sm" }} maxW="xl">
                                 This is also a portofolio from instagram <Link href="https://www.instagram.com/p/CO1MxEao-RV/" color="teal.500" isExternal>@UI/UX <ExternalLinkIcon mx="2px" /></Link> 
