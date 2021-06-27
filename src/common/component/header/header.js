@@ -38,7 +38,7 @@ function Header(props) {
         >
             <Flex align="center" mr={5}>
                 <Heading as="h1" color="#FF6347" size="md" letterSpacing={"-.0.01rem"} fontSize={{ base: "sm", md: "md", sm: "md", lg: "md" }}>
-                    <Link to="/">EzGreezy</Link> 
+                    <Link to="/">Valentino Griffith</Link> 
                 </Heading>
                 <Box
                     display={{ base: "none", md: "flex" }}
