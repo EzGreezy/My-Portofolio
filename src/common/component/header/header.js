@@ -37,14 +37,32 @@ function Header(props) {
             {...props}
         >
             <Flex align="center" mr={5}>
-                <Heading as="h1" size="md" letterSpacing={"-.0.01rem"} fontSize={{ base: "sm", md: "md", sm: "md", lg: "md" }}>
-                    <Link to="/">Valentino Griffith</Link> 
+                <Heading as="h1" color="#FF6347" size="md" letterSpacing={"-.0.01rem"} fontSize={{ base: "sm", md: "md", sm: "md", lg: "md" }}>
+                    <Link to="/">EzGreezy</Link> 
                 </Heading>
                 <Box
                     display={{ base: "none", md: "flex" }}
                     mt={{ base: 4, md: 0 }}
                     pl="12"
                 >
+                    <Button 
+                        mt={{ base: 5, md: 0 }} 
+                        mr={6} 
+                        display="block" 
+                        size="xs" 
+                        backgroundColor="transparent" 
+                    >
+                    <Link to="/">Homepage</Link> 
+                    </Button>
+                    <Button 
+                        mt={{ base: 5, md: 0 }} 
+                        mr={6} 
+                        display="block" 
+                        size="xs" 
+                        backgroundColor="transparent" 
+                    >
+                    <Link to="/about">About me</Link> 
+                    </Button>
                     {/* <Button 
                         mt={{ base: 5, md: 0 }} 
                         mr={6} 
@@ -52,26 +70,8 @@ function Header(props) {
                         size="xs" 
                         backgroundColor="transparent" 
                     >
-                    <Link to="/">Beranda</Link> 
-                    </Button> */}
-                    <Button 
-                        mt={{ base: 5, md: 0 }} 
-                        mr={6} 
-                        display="block" 
-                        size="xs" 
-                        backgroundColor="transparent" 
-                    >
-                    <Link to="/portofolio">Portofolio</Link> 
-                    </Button>
-                    <Button 
-                        mt={{ base: 5, md: 0 }} 
-                        mr={6} 
-                        display="block" 
-                        size="xs" 
-                        backgroundColor="transparent" 
-                    >
                     <Link to="/crud">CRUD</Link> 
-                    </Button>
+                    </Button> */}
                 </Box>
             </Flex>
 
