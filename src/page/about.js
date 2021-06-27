@@ -2,7 +2,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Layout from "../common/component/layout/layout";
-import { Box, Button, Text, Container,useColorModeValue, Grid, GridItem, Heading, Image, Link, Stack, Center } from '@chakra-ui/react';
+import { Box, Button, Text, Container,useColorModeValue, Heading, Image, Link, Stack, Center } from '@chakra-ui/react';
 // import pl from "../assets/images/pl.jpg";
 // import retret from "../assets/images/retret.jpg";
 import retret2 from "../assets/images/retret2.jpg";

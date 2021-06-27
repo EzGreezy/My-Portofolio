@@ -11,7 +11,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 // import Picture8 from "../assets/images/picture 8.jpg";
 
 import Layout from "../common/component/layout/layout";
-import { Box, Text, Container, Grid, GridItem, Heading, Image, Link } from '@chakra-ui/react';
+import { Box, Text, Container, Grid, Heading, Link } from '@chakra-ui/react';
 
 
 export default function Portofolio(props) {

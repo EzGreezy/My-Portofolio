@@ -9,7 +9,6 @@ import {
 } from '@chakra-ui/react';
 import { FaInstagram, FaWhatsapp, FaYoutube, FaGithub, FaLinkedinIn  } from 'react-icons/fa';
 import { MdMailOutline } from "react-icons/md";
-import { ReactNode } from 'react';
 
 const SocialButton = ({children, label, href}) => {
   return (

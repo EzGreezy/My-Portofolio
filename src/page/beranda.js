@@ -1,8 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Layout from "../common/component/layout/layout";
-import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Box, Text, chakra, Stack, useColorModeValue, VisuallyHidden, Container, Grid, GridItem, Heading, Image, Link } from '@chakra-ui/react';
+import { Box, Text, chakra, Stack, useColorModeValue, VisuallyHidden, Container, Grid, GridItem, Heading, Image} from '@chakra-ui/react';
 import { FaInstagram, FaWhatsapp, FaYoutube, FaGithub, FaLinkedinIn  } from 'react-icons/fa';
 import { MdMailOutline } from "react-icons/md";
 import profile from "../assets/images/profile.png";
