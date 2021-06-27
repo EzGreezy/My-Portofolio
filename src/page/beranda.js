@@ -75,15 +75,6 @@ export default function Beranda(props) {
                                         <SocialButton label={'e-Mail'} href={'mailto:vgriffith97@gmail.com'}>
                                             <MdMailOutline />
                                         </SocialButton>
-                                        <SocialButton label={'YouTube'} href={'https://www.youtube.com/c/EzGreezy'}>
-                                            <FaYoutube />
-                                        </SocialButton>
-                                        <SocialButton label={'Instagram'}  href={'https://www.instagram.com/vgriffith97/'}>
-                                            <FaInstagram />
-                                        </SocialButton>
-                                        <SocialButton label={'Whatsapp'}  href={'https://wa.me/+6281229405758'}>
-                                            <FaWhatsapp />
-                                        </SocialButton>
                                         <SocialButton label={'Github'}  href={'https://github.com/EzGreezy'}>
                                             <FaGithub />
                                         </SocialButton>
@@ -108,6 +99,7 @@ export default function Beranda(props) {
                         </Box>
                     </Fade>
                     
+                    {/* projects */}
                     <Fade duration={500} distance="30px" fraction={0.4} bottom>
                         <Box mt={{ base: "44", md: "28", lg: "0" }}>
                             <Heading as="h1" color="#FF6347" letterSpacing={"-.0.001rem"} lineHeight={"-.0.001rem"} fontSize={{ base: "xl", md: "3xl", lg: "5xl" }}>

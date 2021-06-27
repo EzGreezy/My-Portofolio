@@ -11,15 +11,15 @@ import {
 import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 import useSound from 'use-sound';
 import { Link } from 'react-router-dom';
-import SoundClick from '../../../assets/sound/pop.mp3'
+// import SoundClick from '../../../assets/sound/pop.mp3'
 
 function Header(props) {
     const { colorMode, toggleColorMode } = useColorMode()
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const [play] = useSound(SoundClick);
+    // const [play] = useSound(SoundClick);
 
     const changeDarkMode = () => {
-        play();
+        // play();
         toggleColorMode();
     }
 
@@ -52,7 +52,7 @@ function Header(props) {
                         size="xs" 
                         backgroundColor="transparent" 
                     >
-                    <Link to="/">Homepage</Link> 
+                        <Link to="/">Homepage</Link> 
                     </Button>
                     <Button 
                         mt={{ base: 5, md: 0 }} 
@@ -61,21 +61,13 @@ function Header(props) {
                         size="xs" 
                         backgroundColor="transparent" 
                     >
-                    <Link to="/about">About me</Link> 
+                        <Link to="/about">About me</Link> 
                     </Button>
-                    {/* <Button 
-                        mt={{ base: 5, md: 0 }} 
-                        mr={6} 
-                        display="block" 
-                        size="xs" 
-                        backgroundColor="transparent" 
-                    >
-                    <Link to="/crud">CRUD</Link> 
-                    </Button> */}
                 </Box>
             </Flex>
 
             <Spacer />
+            
             <Box
                 display={{ base: "none", md: "flex" }}
                 mt={{ base: 4, md: 0 }}
@@ -85,10 +77,10 @@ function Header(props) {
             </Box>
             <Box display={{ base: "block", md: "none", lg: "none" }}>
                 <IconButton size="xs" bg="transparent" icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />} onClick={changeDarkMode} aria-label="button" />
-                <Button size="xs" bg="transparent" onClick={onOpen}>👋</Button>
+                {/* <Button size="xs" bg="transparent" onClick={onOpen}>👋</Button> */}
             </Box>
         </Flex>
-        <Modal
+        {/* <Modal
             isCentered
             onClose={onClose}
             isOpen={isOpen}
@@ -119,7 +111,7 @@ function Header(props) {
                     </Flex>
                 </ModalBody>
             </ModalContent>
-        </Modal>
+        </Modal> */}
     </>
     );
 }
